@@ -11,3 +11,7 @@ async function getqoute(url) {
 }
 
 getqoute(api_url);
+
+function  facebook() {
+    window.open("https://www.facebook.com/sharer/sharer.php?text=" + quote.innerHTML + "---- by" + author.innerHTML, "fb window", "width=600, height=300");
+}
